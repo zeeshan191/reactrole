@@ -33,7 +33,7 @@ import {
 * */
 
 
-export default [
+const PrivateRoutesConfig = [
 	{
 		component: Module1,
 		path: '/',
@@ -102,3 +102,5 @@ export default [
 		],
 	},
 ]
+
+export default PrivateRoutesConfig;

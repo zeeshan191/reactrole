@@ -1,18 +1,9 @@
-import React from 'react'
+const Roles = {
+	SUPER_ADMIN: 'SUPER_ADMIN',
+	ADMIN: 'ADMIN',
+	MANAGER: 'MANAGER',
+	CUSTOMER: 'CUSTOMER',
+	GUEST: 'GUEST'
+};
 
-function Roles() {
-	return (
-		<>
-		
-			SUPER_ADMIN: 'SUPER_ADMIN',
-			ADMIN: 'ADMIN',
-			MANAGER: 'MANAGER',
-			CUSTOMER: 'CUSTOMER',
-			GUEST: 'GUEST'
-		
-		
-		</>
-	)
-}
-
-export default Roles
+export default Roles;
